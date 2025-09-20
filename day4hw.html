@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Card</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: rgb(204, 229, 255);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div.card {
+            border: 3px solid darkblue;
+            border-radius: 15px;
+            background-color: rgb(255, 255, 204);
+            padding: 20px;
+            margin: 20px auto;
+            height: 400px;
+            width: 70%;
+            position: relative;
+            overflow: auto;
+        }
+        h3 {
+            color: darkgreen;
+            font-size: 28px;
+            font-family: 'Tahoma', sans-serif;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        img {
+            max-width: 250px;
+            height: 300px;
+            border-radius: 10px;
+        }
+        .separator {
+            border-left: 2px solid black;
+            height: 400px;
+        }
+        .text-section {
+            text-align: left;
+            max-width: 50%;
+        }
+        p {
+            color: darkred;
+            font-size: 18px;
+            font-family: 'Verdana', sans-serif;
+        }
+        .red {
+            color: red;
+            font-size: 13px;
+            border: 3px solid #1212d4;
+            border-radius: 10px;
+            background-color: lightgrey;
+            padding: 10px;
+            margin-top: 15px;
+            position: fixed;
+            top: 10px;
+            right: 220px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h3>Company Contact Card</h3>
+        <div class="content">
+            <img src="https://imgs.search.brave.com/xcuk_Ft5dATff4LXxOnFR9dDwzbp7pn4TQIDavVJtsM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2RmL2I2/LzFmL2RmYjYxZmUy/YTQ1NWQxMTNkOTNm/YzNhNmY3MjgyYzIz/LmpwZw" alt="girl image">
+            
+            <div class="separator"></div>
+            
+            <div class="text-section">
+                <p><strong>Name:</strong> Nisha<br><br>
+                <strong>Title:</strong> Marketing Coordinator<br><br>
+                <strong>Description:</strong><br>
+                Nisha is a creative and detail-oriented marketing professional with a passion for storytelling and brand building. She manages social media campaigns, coordinates content creation, and supports the execution of marketing strategies across multiple channels. With a background in communications and UX design, she thrives at crafting campaigns that resonate across digital platforms. She's known for her organized chaos — color-coded spreadsheets, mood boards pinned to every wall, and a constant stream of fresh ideas. Off the clock, she’s a dedicated runner and volunteers teaching digital literacy workshops on weekends.
+                </p>
+
+                <p class="red">
+                    <strong>Contact Details</strong><br>
+                    Phone: 9078563445<br>
+                    Email: Nisha19@gmail.com
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
