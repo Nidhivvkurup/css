@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: rgb(231, 252, 231);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .card {
+            border: 3px solid darkblue;
+            border-radius: 15px;
+            background-color: rgb(247, 247, 205);
+            padding: 20px;
+            margin: 20px auto;
+            height: auto;
+            width: 50%;
+            position: relative;
+            overflow: auto;
+        }
+        .img {
+            max-width: 250px;
+            height: 250px;
+            border-radius: 50px 15px;
+            border: 2px solid black;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 20px auto;
+            background-image: url('https://imgs.search.brave.com/uyAnkWM3A-EKZ0e2IODloqmi6dC9UCYddl6DEDmuWJA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzhmLzBj/Lzk5LzhmMGM5OTE3/OWI5YzI0ODdiZDdk/NWM3MTlmN2Y0ZjJk/LmpwZw');
+            background-size: cover;
+            background-position: center;
+        }
+        h3 {
+            color: darkgreen;
+            font-size: 28px;
+            font-family: 'Tahoma', sans-serif;
+            text-align: center;
+        }
+        h4 {
+            color: darkred;
+            font-size: 24px;
+            font-family: 'Verdana', sans-serif;
+            text-align: center;
+        }
+        p {
+            color: darkred;
+            font-size: 18px;
+            font-family: 'Verdana', sans-serif;
+            margin: 20px auto;
+            text-align: justify;
+        }   
+        .button {
+            background-color: darkblue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            display: block;
+            margin: 0 auto;
+        }
+        .button:hover {
+            background-color: rgb(78, 241, 119);
+        }
+        @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="img"></div>
+        <h3>Harry Potter Books</h3>
+        <h4>₹3999</h4>
+        <p>The spellbinding adventures of Harry Potter, presented in a magical box set containing paperback editions of J.K. Rowling's seven classic stories.</p>
+        <button class="button">Buy Now</button>
+    </div>
+</body>
+</html>
